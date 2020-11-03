@@ -17,5 +17,6 @@ Feature: Core Onboarding
       | MFA Method |
       | Email      |
       | Phone SMS  |
-    Then user will be verifying the PII information filled in. 
+    And user can see PII information review screen
+    Then user will be review PII information filled in earlier
     And user will be onboarded as a core user. 
